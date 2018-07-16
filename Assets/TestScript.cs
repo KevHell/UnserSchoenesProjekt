@@ -9,6 +9,9 @@ public class TestScript : MonoBehaviour
     void Start()
     {
         Debug.Log("Das ist ein Testscript");
+
+        Debug.Log("Ich habe dein Testscript geändert.");
+        Debug.Log("Mit freundlichen Grüßen,\nKevin Hell");
     }
     
 }
