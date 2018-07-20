@@ -12,7 +12,7 @@ public class RainDrop : MonoBehaviour
 
         newScale = transform.localScale;
 
-        Invoke("Destroy", 2f);
+        Invoke("Destroy", 3f);
     }
 
     void Destroy()
