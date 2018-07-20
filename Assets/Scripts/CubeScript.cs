@@ -46,5 +46,7 @@ public class CubeScript : MonoBehaviour
 
         playerVelocity = playerTransform.up * vertical * speed;
         playerRigidbody.velocity = playerVelocity;
+
+        GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f));
     }
 }
