@@ -8,6 +8,8 @@ public class CubeScript : MonoBehaviour
     public float playerSpeed = 5f;
     public float playerRotationSpeed = 5f;
 
+    Vector3 newScale;
+
     // TRANSFORMS
     Transform playerTransform;
 
@@ -20,6 +22,8 @@ public class CubeScript : MonoBehaviour
     {
         playerTransform = GetComponent<Transform>();
         playerRigidbody = GetComponent<Rigidbody>();
+
+        newScale = transform.localScale;
     }
 
 
@@ -48,5 +52,8 @@ public class CubeScript : MonoBehaviour
         playerRigidbody.velocity = playerVelocity;
 
         GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f));
+
+        newScale.x = Mathf.PingPong(Time.time, 1.5f);
+        transform.localScale = newScale;
     }
 }
