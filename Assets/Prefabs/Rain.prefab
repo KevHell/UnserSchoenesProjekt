@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 135786518083669556}
   - component: {fileID: 54056918025552952}
   - component: {fileID: 114535941526997986}
+  - component: {fileID: 114993960622627714}
   m_Layer: 0
   m_Name: Rain
   m_TagString: Untagged
@@ -115,6 +116,17 @@ MonoBehaviour:
   beatsPerMinute: 300
   minPulseSize: 1
   maxPulseSize: 3
+--- !u!114 &114993960622627714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1485800714589514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357de1527ed720a45a2b8a11ca942675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135786518083669556
 SphereCollider:
   m_ObjectHideFlags: 1
