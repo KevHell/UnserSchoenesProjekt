@@ -35,6 +35,7 @@ public class Pulse : MonoBehaviour
 
         if (Time.time - lastCalledPulse > tempo)
         {
+            GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f));
             lastCalledPulse = Time.time;
             cycleComplete = false;
         }
