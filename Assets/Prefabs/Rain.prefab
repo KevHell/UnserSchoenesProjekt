@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12e371aab682d14fa5017e22662b0ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beatsPerMinute: 300
+  beatsPerMinute: 240
   minPulseSize: 1
   maxPulseSize: 3
 --- !u!114 &114993960622627714
