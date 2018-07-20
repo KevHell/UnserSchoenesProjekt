@@ -8,12 +8,12 @@ public class TestScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Debug.Log("Das ist ein Testscript");
+        //Debug.Log("Das ist ein Testscript");
 
-        Debug.Log("Ich habe dein Testscript geändert.");
-        Debug.Log("Mit freundlichen Grüßen,\nNOT-Kevin Hell");
+        //Debug.Log("Ich habe dein Testscript geändert.");
+        //Debug.Log("Mit freundlichen Grüßen,\nNOT-Kevin Hell");
 
-        Debug.Log("Danke! MfG NOT-Sebastian");
+        //Debug.Log("Danke! MfG NOT-Sebastian");
     }
     
 }
