@@ -52,8 +52,6 @@ public class CubeScript : MonoBehaviour
         playerRigidbody.velocity = playerVelocity;
 
         GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f));
-
-        newScale.x = Mathf.PingPong(Time.time, 1.5f);
-        transform.localScale = newScale;
+        
     }
 }
