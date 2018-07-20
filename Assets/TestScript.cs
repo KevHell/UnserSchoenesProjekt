@@ -11,9 +11,9 @@ public class TestScript : MonoBehaviour
         Debug.Log("Das ist ein Testscript");
 
         Debug.Log("Ich habe dein Testscript geändert.");
-        Debug.Log("Mit freundlichen Grüßen,\nKevin Hell");
+        Debug.Log("Mit freundlichen Grüßen,\nNOT-Kevin Hell");
 
-        Debug.Log("Danke! MfG Sebastian");
+        Debug.Log("Danke! MfG NOT-Sebastian");
     }
     
 }
